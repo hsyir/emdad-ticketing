@@ -12,9 +12,9 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "hsyir/answering-system": "dev-main",
         "hsyir/html": "^2.0",
         "hsyir/simotel-laravel-connect": "^1.2",
-        "hsyir/answering-system": "dev-main",
         "hsyir/ticketing": "dev-main",
         "jeroennoten/laravel-adminlte": "^3.5",
         "laravel/framework": "^8.12",
@@ -68,14 +68,14 @@
     "repositories": [
         {
             "type": "path",
-            "url": "c:/wamp64/www/packages/answering-system",
+            "url": "../packages/answering-system",
             "options": {
                 "symlink": true
             }
         },
         {
             "type": "path",
-            "url": "c:/wamp64/www/packages/ticketing",
+            "url": "../packages/ticketing",
             "options": {
                 "symlink": true
             }

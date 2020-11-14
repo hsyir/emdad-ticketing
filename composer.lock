@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14d060f133f70da576749a27b142613e",
+    "content-hash": "3b99638c395d9e41706ae6b7fc5987c9",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -931,8 +931,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "c:/wamp64/www/packages/answering-system",
-                "reference": "5f9b9c7ebcf1e3fb6a468b5e2ec19eeef2e4ee24"
+                "url": "../packages/answering-system",
+                "reference": "a1bd60b7615a476ce600b328a1490e4f3789466b"
             },
             "require-dev": {
                 "laravel/legacy-factories": "1.x-dev",
@@ -942,10 +942,10 @@
             "extra": {
                 "laravel": {
                     "aliases": {
-                        "Answering": "Hsy\\Answering\\Facades\\Answering"
+                        "Answering": "Hsy\\AnsweringSystem\\Facades\\Answering"
                     },
                     "providers": [
-                        "Hsy\\Answering\\HsyAnsweringSystemServiceProvider"
+                        "Hsy\\AnsweringSystem\\HsyAnsweringSystemServiceProvider"
                     ]
                 }
             },
@@ -978,7 +978,7 @@
             ],
             "transport-options": {
                 "symlink": true,
-                "relative": false
+                "relative": true
             }
         },
         {
@@ -1080,8 +1080,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "c:/wamp64/www/packages/ticketing",
-                "reference": "62bb85b3dcfec4fec37ffcc7f84ecfe308d103aa"
+                "url": "./../packages/ticketing",
+                "reference": "c63c34da457df2e3bd15b043b9f65896570c4e42"
             },
             "require-dev": {
                 "laravel/legacy-factories": "1.x-dev",
@@ -1130,7 +1130,7 @@
             ],
             "transport-options": {
                 "symlink": true,
-                "relative": false
+                "relative": true
             }
         },
         {
@@ -2970,16 +2970,16 @@
         },
         {
             "name": "spatie/image",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image.git",
-                "reference": "4af1e424caebd2e3e5c987b30889030151d78e52"
+                "reference": "cef42a2d131e28d6f3e0af91c0570f6ba45a8d40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image/zipball/4af1e424caebd2e3e5c987b30889030151d78e52",
-                "reference": "4af1e424caebd2e3e5c987b30889030151d78e52",
+                "url": "https://api.github.com/repos/spatie/image/zipball/cef42a2d131e28d6f3e0af91c0570f6ba45a8d40",
+                "reference": "cef42a2d131e28d6f3e0af91c0570f6ba45a8d40",
                 "shasum": ""
             },
             "require": {
@@ -3021,7 +3021,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/image/issues",
-                "source": "https://github.com/spatie/image/tree/1.8.0"
+                "source": "https://github.com/spatie/image/tree/1.9.0"
             },
             "funding": [
                 {
@@ -3033,7 +3033,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-12T16:35:28+00:00"
+            "time": "2020-11-13T09:39:41+00:00"
         },
         {
             "name": "spatie/image-optimizer",
@@ -5810,16 +5810,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "81698c5e32837c74abf9bb764ff0c1b3e001afb3"
+                "reference": "3b3403f18bbdc0aeadf1ffaddf11a1588b12ec7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/81698c5e32837c74abf9bb764ff0c1b3e001afb3",
-                "reference": "81698c5e32837c74abf9bb764ff0c1b3e001afb3",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/3b3403f18bbdc0aeadf1ffaddf11a1588b12ec7a",
+                "reference": "3b3403f18bbdc0aeadf1ffaddf11a1588b12ec7a",
                 "shasum": ""
             },
             "require": {
@@ -5883,7 +5883,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2020-10-27T13:02:22+00:00"
+            "time": "2020-11-13T13:36:24+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -6179,16 +6179,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/776f831124e9c62e1a2c601ecc52e776d8bb7220",
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220",
                 "shasum": ""
             },
             "require": {
@@ -6225,7 +6225,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.x"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.10.2"
             },
             "funding": [
                 {
@@ -6233,7 +6233,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-29T13:22:24+00:00"
+            "time": "2020-11-13T09:40:50+00:00"
         },
         {
             "name": "nunomaduro/collision",
