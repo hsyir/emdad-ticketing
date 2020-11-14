@@ -932,7 +932,7 @@
             "dist": {
                 "type": "path",
                 "url": "../packages/answering-system",
-                "reference": "a1bd60b7615a476ce600b328a1490e4f3789466b"
+                "reference": "7dee029f50852147ba4d1c2198c0d09d74d31548"
             },
             "require-dev": {
                 "laravel/legacy-factories": "1.x-dev",
