@@ -19,12 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::as("responders.")->prefix("responders")->namespace("\App\Http\Controllers\Responders")->group(function () {
+    Route::get("", "RespondingDashboardController@index")->name("index");
+});

@@ -19,6 +19,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+
+            $table->string('simotel_number')->nullable();
+            $table->string('simotel_password')->nullable();
+            $table->boolean("simotel_paused")->default(true);
+
             $table->rememberToken();
             $table->timestamps();
         });

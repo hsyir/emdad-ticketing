@@ -11,6 +11,11 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
+
+
+    const RESPONDING_STATUS_ACTIVE = 1;
+    const RESPONDING_STATUS_PAUSE = 2;
+
     /**
      * The attributes that are mass assignable.
      *
