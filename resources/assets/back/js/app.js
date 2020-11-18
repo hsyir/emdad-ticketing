@@ -20,9 +20,13 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 
-Vue.component('UserStatusInQueue', require('./vue/nasim-moshaver/UserStatusInQueue').default);
-Vue.component('UserPauseStatus', require('./vue/nasim-moshaver/UserPauseStatus').default);
 Vue.component('CallsReport', require('./vue/nasim-moshaver/CallsReport').default);
+Vue.component(
+    'CallsAnswering',
+    require(
+        '../../../../vendor/hsyir/answering-system/resources/assets/js/components/test'
+    ).default
+);
 // Vue.component('ThemeOptions', require('./vue/theme-options/options.vue').default);
 // Vue.component('InstagramInsightPanel', require('./vue/insights/instagram/InstagramInsight.vue').default);
 // Vue.component('SocialInfo', require('./vue/insights/SocialInfo.vue').default);
@@ -46,8 +50,6 @@ window.select2 = require("select2");
 //
 $.fn.select2.defaults.set("theme", "bootstrap");
 require('./contents/select2')
-
-
 
 
 $(document).ready(function () {
@@ -133,7 +135,6 @@ $(document).ready(function () {
 window.Highcharts = require('highcharts');
 // Load module after Highcharts is loaded
 require('highcharts/modules/exporting')(Highcharts);
-
 
 
 require('bootstrap');
