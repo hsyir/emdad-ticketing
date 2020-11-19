@@ -11,6 +11,7 @@ class CreateDepartmentsTable extends \Illuminate\Database\Migrations\Migration
         Schema::create("departments", function (Blueprint $table) {
             $table->id();
             $table->string("name");
+            $table->timestamps();
         });
     }
 

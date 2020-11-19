@@ -145,7 +145,7 @@ return [
     */
 
     'sidebar_mini' => true,
-    'sidebar_collapse' => false,
+    'sidebar_collapse' => true,
     'sidebar_collapse_auto_size' => false,
     'sidebar_collapse_remember' => false,
     'sidebar_collapse_remember_no_transition' => true,
@@ -237,10 +237,9 @@ return [
             'topnav' => true,
         ],*/
 
-        ['header' => 'پاسخگویی'],
         [
-            'text' => 'داشبورد',
-            'url'  => 'responders',
+            'text' => 'دپارتمان ها',
+            'url'  => 'answering/departments',
             'icon' => 'fas fa-fw fa-user',
         ],
     ],
