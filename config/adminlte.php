@@ -242,6 +242,11 @@ return [
             'url'  => 'answering/departments',
             'icon' => 'fas fa-fw fa-user',
         ],
+        [
+            'text' => 'تیکت ها موضوعات',
+            'url'  => 'answering/ticketSubjects',
+            'icon' => 'fas fa-fw fa-user',
+        ],
     ],
 
     /*
