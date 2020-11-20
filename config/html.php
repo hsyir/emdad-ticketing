@@ -13,6 +13,6 @@ return [
 
     'variables' => [
         'name', 'method', 'description',
-        'label', "class", 'value','checked',"caption","disabled","select_options"
+        'label', "class", 'value','checked',"caption","disabled","select_options","label"
     ],
 ];

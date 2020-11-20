@@ -24,7 +24,7 @@ Vue.component('CallsReport', require('./vue/nasim-moshaver/CallsReport').default
 Vue.component(
     'CallsAnswering',
     require(
-        '../../../../vendor/hsyir/answering-system/resources/assets/js/components/test'
+        '../../../../vendor/hsyir/answering-system/resources/assets/js/components/CreateTicket'
     ).default
 );
 // Vue.component('ThemeOptions', require('./vue/theme-options/options.vue').default);

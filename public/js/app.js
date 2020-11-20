@@ -86,27 +86,30 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../packages/answering-system/resources/assets/js/components/test.vue":
-/*!****************************************************************************!*\
-  !*** ../packages/answering-system/resources/assets/js/components/test.vue ***!
-  \****************************************************************************/
-/*! exports provided: default */
+/***/ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue":
+/*!************************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/CreateTicket.vue ***!
+  \************************************************************************************/
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test.vue?vue&type=template&id=78258834& */ "../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834&");
-/* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../emdad-ticketing/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateTicket.vue?vue&type=template&id=5781edea& */ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea&");
+/* harmony import */ var _CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateTicket.vue?vue&type=script&lang=js& */ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../emdad-ticketing/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -116,24 +119,40 @@ var component = Object(_emdad_ticketing_node_modules_vue_loader_lib_runtime_comp
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "packages/answering-system/resources/assets/js/components/test.vue"
+component.options.__file = "packages/answering-system/resources/assets/js/components/CreateTicket.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834&":
-/*!***********************************************************************************************************!*\
-  !*** ../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834& ***!
-  \***********************************************************************************************************/
+/***/ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../emdad-ticketing/node_modules/babel-loader/lib??ref--4-0!../../../../../../emdad-ticketing/node_modules/vue-loader/lib??vue-loader-options!./CreateTicket.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js&");
+/* harmony import */ var _emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea&":
+/*!*******************************************************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea& ***!
+  \*******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../emdad-ticketing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../emdad-ticketing/node_modules/vue-loader/lib??vue-loader-options!./test.vue?vue&type=template&id=78258834& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../emdad-ticketing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../emdad-ticketing/node_modules/vue-loader/lib??vue-loader-options!./CreateTicket.vue?vue&type=template&id=5781edea& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_78258834___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateTicket_vue_vue_type_template_id_5781edea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -1949,6 +1968,22 @@ module.exports = {
   trim: trim
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -68731,10 +68766,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../packages/answering-system/resources/assets/js/components/test.vue?vue&type=template&id=78258834& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../packages/answering-system/resources/assets/js/components/CreateTicket.vue?vue&type=template&id=5781edea& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81020,7 +81055,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('CallsReport', __webpack_require__(/*! ./vue/nasim-moshaver/CallsReport */ "./resources/assets/back/js/vue/nasim-moshaver/CallsReport.vue")["default"]);
-Vue.component('CallsAnswering', __webpack_require__(/*! ../../../../vendor/hsyir/answering-system/resources/assets/js/components/test */ "../packages/answering-system/resources/assets/js/components/test.vue")["default"]); // Vue.component('ThemeOptions', require('./vue/theme-options/options.vue').default);
+Vue.component('CallsAnswering', __webpack_require__(/*! ../../../../vendor/hsyir/answering-system/resources/assets/js/components/CreateTicket */ "../packages/answering-system/resources/assets/js/components/CreateTicket.vue")["default"]); // Vue.component('ThemeOptions', require('./vue/theme-options/options.vue').default);
 // Vue.component('InstagramInsightPanel', require('./vue/insights/instagram/InstagramInsight.vue').default);
 // Vue.component('SocialInfo', require('./vue/insights/SocialInfo.vue').default);
 
@@ -83208,9 +83243,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\wamp64\www\emdad-ticketing\resources\assets\back\js\app.js */"./resources/assets/back/js/app.js");
-__webpack_require__(/*! D:\wamp64\www\emdad-ticketing\resources\assets\back\sass\app.scss */"./resources/assets/back/sass/app.scss");
-module.exports = __webpack_require__(/*! D:\wamp64\www\emdad-ticketing\resources\assets\front\sass\app.scss */"./resources/assets/front/sass/app.scss");
+__webpack_require__(/*! C:\wamp64\www\emdad-ticketing\resources\assets\back\js\app.js */"./resources/assets/back/js/app.js");
+__webpack_require__(/*! C:\wamp64\www\emdad-ticketing\resources\assets\back\sass\app.scss */"./resources/assets/back/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\wamp64\www\emdad-ticketing\resources\assets\front\sass\app.scss */"./resources/assets/front/sass/app.scss");
 
 
 /***/ })
