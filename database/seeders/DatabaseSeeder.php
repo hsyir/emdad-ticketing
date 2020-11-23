@@ -14,5 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        (new DepartmentSeeder())->run();
+        (new TicketSubjectSeeder())->run();
     }
 }

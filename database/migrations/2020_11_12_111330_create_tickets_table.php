@@ -10,15 +10,12 @@ class CreateTicketsTable extends \Illuminate\Database\Migrations\Migration
     {
         Schema::create("tickets", function (Blueprint $table) {
             $table->id();
-            $table->string("title")->nullable();
+            $table->string("subject")->nullable();
             $table->text("body")->nullable();
-            $table->boolean("is_private")->default(false);
-            $table->integer("level")->default(false);
-            $table->unsignedInteger("parent_ticket_id")->nullable();
             $table->unsignedInteger("creator_id")->nullable();
             $table->unsignedInteger("user_id")->nullable();
             $table->unsignedInteger("department_id")->nullable();
-            $table->unsignedInteger("subject_id")->nullable();
+            $table->unsignedInteger("ticket_subject_id")->nullable();
             $table->unsignedInteger("status_id")->nullable();
             $table->unsignedInteger("priority_id")->nullable();
             $table->dateTime("closed_at")->nullable();
