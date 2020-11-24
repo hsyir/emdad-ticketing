@@ -14,9 +14,9 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'سامانه 3128',
     'title_prefix' => '',
-    'title_postfix' => '',
+    'title_postfix' => 'امداد خراسان رضوی',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => ' سامانه <b>3128</b> ',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -145,7 +145,7 @@ return [
     */
 
     'sidebar_mini' => true,
-    'sidebar_collapse' => true,
+    'sidebar_collapse' => false,
     'sidebar_collapse_auto_size' => false,
     'sidebar_collapse_remember' => false,
     'sidebar_collapse_remember_no_transition' => true,
@@ -231,21 +231,50 @@ return [
     */
 
     'menu' => [
-       /* [
+        [
             'text' => 'search',
             'search' => true,
             'topnav' => true,
-        ],*/
+        ],
 
+        ['header' => 'پاسخگویی',"can"],
+        [
+            'text' => 'پنل پاسخگویی',
+            'url'  => 'answering/responding/welcome',
+            'icon' => 'fas fa-fw fa-phone',
+        ],
+        [
+            'text' => 'درخواست ها',
+            'url'  => '',
+            'icon' => 'fas fa-fw fa-hands',
+        ],
+        ['header' => 'سیستم'],
         [
             'text' => 'دپارتمان ها',
             'url'  => 'answering/departments',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-building',
         ],
         [
             'text' => 'تیکت ها موضوعات',
             'url'  => 'answering/ticketSubjects',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-align-justify',
+        ],
+        ['header' => 'کاربران'],
+        [
+            'text' => 'مدیریت کاربران',
+            'url'  => '',
+            'icon' => 'fas fa-fw fa-users',
+        ],
+        [
+            'text' => 'ویرایش پروفایل من',
+            'url'  => '',
+            'icon' => 'fas fa-fw fa-user-edit',
+        ],
+        ["header"=>"نرم افزار"],
+        [
+            'text' => ' ورژن 1.0.0',
+            'url'  => '/about',
+            'icon' => 'fas fa-fw fa-version',
         ],
     ],
 

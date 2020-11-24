@@ -362,6 +362,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue":
+/*!**********************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/ShowTicket.vue ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true& */ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true&");
+/* harmony import */ var _ShowTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ShowTicket.vue?vue&type=script&lang=js& */ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../emdad-ticketing/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_emdad_ticketing_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ShowTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "7b6545aa",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "packages/answering-system/resources/assets/js/components/ShowTicket.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_ShowTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../emdad-ticketing/node_modules/babel-loader/lib??ref--4-0!../../../../../../emdad-ticketing/node_modules/vue-loader/lib??vue-loader-options!./ShowTicket.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_emdad_ticketing_node_modules_babel_loader_lib_index_js_ref_4_0_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_ShowTicket_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true&":
+/*!*****************************************************************************************************************************!*\
+  !*** ../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true& ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../emdad-ticketing/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../emdad-ticketing/node_modules/vue-loader/lib??vue-loader-options!./ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _emdad_ticketing_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_emdad_ticketing_node_modules_vue_loader_lib_index_js_vue_loader_options_ShowTicket_vue_vue_type_template_id_7b6545aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "../packages/answering-system/resources/assets/js/components/TicketForm.vue":
 /*!**********************************************************************************!*\
   !*** ../packages/answering-system/resources/assets/js/components/TicketForm.vue ***!
@@ -2255,6 +2324,7 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SelectSubject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SelectSubject */ "../packages/answering-system/resources/assets/js/components/SelectSubject.vue");
 /* harmony import */ var _TicketForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TicketForm */ "../packages/answering-system/resources/assets/js/components/TicketForm.vue");
+/* harmony import */ var _ShowTicket__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ShowTicket */ "../packages/answering-system/resources/assets/js/components/ShowTicket.vue");
 //
 //
 //
@@ -2267,11 +2337,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "CreateTicket",
   components: {
+    ShowTicket: _ShowTicket__WEBPACK_IMPORTED_MODULE_2__["default"],
     TicketForm: _TicketForm__WEBPACK_IMPORTED_MODULE_1__["default"],
     SelectSubject: _SelectSubject__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
@@ -2283,7 +2361,8 @@ __webpack_require__.r(__webpack_exports__);
       selected_subject: {
         fields: {}
       },
-      selected_department: {}
+      selected_department: {},
+      lastTicket: {}
     };
   },
   methods: {
@@ -2302,13 +2381,14 @@ __webpack_require__.r(__webpack_exports__);
       this.goToStep("ticketForm");
     },
     newTicketStored: function newTicketStored(ticket) {
-      Swal.fire({
-        title: 'انجام شد!',
-        text: 'درخواست مورد نظر ثبت شد',
-        icon: 'success',
-        confirmButtonText: 'بسیار خب'
-      });
+      this.lastTicket = ticket;
+      this.goToStep("showTicket");
+    },
+    cancelForm: function cancelForm() {
       this.goToStep("selectSubject");
+    },
+    cancel: function cancel() {
+      this.$emit("cancel");
     }
   },
   mounted: function mounted() {}
@@ -2372,6 +2452,9 @@ __webpack_require__.r(__webpack_exports__);
       axios.get("/answering/getDepartments").then(function (res) {
         vm.departments = res.data.data;
       });
+    },
+    crateTicketCancel: function crateTicketCancel() {
+      this.goToStep("selectRequestType");
     }
   },
   mounted: function mounted() {
@@ -2390,6 +2473,25 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2455,6 +2557,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SelectSubject",
   props: ["departments"],
@@ -2466,6 +2582,74 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     selectSubject: function selectSubject(subject, department) {
       this.$emit("subjectSelected", subject, department);
+    },
+    cancel: function cancel() {
+      this.$emit("cancel");
+    }
+  },
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "ShowTicket",
+  components: {},
+  props: ["ticket"],
+  data: function data() {
+    return {
+      loading: false
+    };
+  },
+  methods: {
+    done: function done() {
+      this.$emit("done");
     }
   },
   mounted: function mounted() {}
@@ -2512,6 +2696,22 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "TicketForm",
   components: {},
@@ -2527,7 +2727,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       var vm = this;
       this.loading = true;
       axios.post("/answering/tickets", this.collectData()).then(function (res) {
-        vm.ticketStored(res.data);
+        vm.ticketStored(res.data.data);
       });
     },
     collectData: function collectData() {
@@ -2540,11 +2740,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.saveTicket();
     },
     ticketStored: function ticketStored(ticket) {
+      console.log(ticket);
       this.resetForm();
       this.$emit("ticketStored", ticket);
     },
     resetForm: function resetForm() {
       this.fields = {};
+    },
+    cancelForm: function cancelForm() {
+      this.resetForm();
+      this.$emit("cancelForm");
     }
   },
   mounted: function mounted() {}
@@ -73188,7 +73393,7 @@ var render = function() {
           [
             _c("select-subject", {
               attrs: { departments: _vm.departments },
-              on: { subjectSelected: _vm.subjectSelected }
+              on: { subjectSelected: _vm.subjectSelected, cancel: _vm.cancel }
             })
           ],
           1
@@ -73204,7 +73409,27 @@ var render = function() {
                 ticket_subject: _vm.selected_subject,
                 department: _vm.selected_department
               },
-              on: { ticketStored: _vm.newTicketStored }
+              on: {
+                ticketStored: _vm.newTicketStored,
+                cancelForm: _vm.cancelForm
+              }
+            })
+          ],
+          1
+        )
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.ifStep("showTicket")
+      ? _c(
+          "div",
+          [
+            _c("show-ticket", {
+              attrs: { ticket: _vm.lastTicket },
+              on: {
+                done: function($event) {
+                  return _vm.goToStep("selectSubject")
+                }
+              }
             })
           ],
           1
@@ -73246,7 +73471,12 @@ var render = function() {
     _vm.ifStep("createTicket")
       ? _c(
           "div",
-          [_c("create-ticket", { attrs: { departments: _vm.departments } })],
+          [
+            _c("create-ticket", {
+              attrs: { departments: _vm.departments },
+              on: { cancel: _vm.crateTicketCancel }
+            })
+          ],
           1
         )
       : _vm._e()
@@ -73275,27 +73505,85 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "button",
-      {
-        staticClass: "btn btn-outline-success",
-        on: {
-          click: function($event) {
-            return _vm.ticketRequest()
-          }
-        }
-      },
-      [_vm._v("ایجاد درخواست")]
-    ),
-    _vm._v(" "),
-    _c("button", { staticClass: "btn btn-outline-success" }, [_vm._v("سوال")]),
-    _vm._v(" "),
-    _c("button", { staticClass: "btn btn-outline-success" }, [
-      _vm._v("پیگیری درخواست")
+    _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-body " }, [
+        _c("div", { staticClass: "text-center" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn  btn-lg btn-outline-success",
+              on: {
+                click: function($event) {
+                  return _vm.ticketRequest()
+                }
+              }
+            },
+            [_c("i", { staticClass: "fa fa-bell" }), _vm._v(" ایجاد درخواست ")]
+          ),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1)
+        ]),
+        _vm._v(" "),
+        _vm._m(2)
+      ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      { staticClass: "btn btn-outline-secondary btn-lg disabled" },
+      [
+        _c("i", { staticClass: "fa fa-question" }),
+        _vm._v(" پاسخ سریع به سوال ")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      { staticClass: "btn btn-outline-secondary  btn-lg disabled" },
+      [_c("i", { staticClass: "fa fa-phone" }), _vm._v("  پیگیری درخواست")]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "p-5" }, [
+      _c("div", { staticClass: "alert alert-info" }, [
+        _vm._v("\n                   خوش آمدید!\n                   "),
+        _c("br"),
+        _vm._v("\n                   برای ایجاد یک درخواست جدید روی "),
+        _c("strong", { staticClass: "blockquote" }, [
+          _vm._v(' "ایجاد درخواست جدید" ')
+        ]),
+        _vm._v(" کلیک کنید.\n               ")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "alert alert-warning" }, [
+        _vm._v(
+          "\n                  بخش پاسخ سریع به سوالات مطرح شده در تماس ها به زودی راه اندزای خواهد شد.\n               "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "alert alert-warning" }, [
+        _vm._v(
+          "\n                  بخش پیگیری درخواست های ثبت شده به زودی راه اندزای خواهد شد.\n               "
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -73318,88 +73606,229 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _vm._v(" SelectSubject\n    "),
-    _c(
-      "div",
-      { attrs: { id: "accordion" } },
-      _vm._l(_vm.departments, function(department) {
-        return _c("div", { staticClass: "card" }, [
-          _c(
-            "div",
-            {
-              staticClass: "card-header",
-              attrs: { id: "head" + department.id }
-            },
-            [
-              _c("h5", { staticClass: "mb-0" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-link",
-                    attrs: {
-                      "data-toggle": "collapse",
-                      "data-target": "#dep" + department.id,
-                      "aria-expanded": "true",
-                      "aria-controls": "dep" + department.id
-                    }
-                  },
-                  [
-                    _vm._v(
-                      "\n                        " +
-                        _vm._s(department.name) +
-                        "\n                    "
-                    )
-                  ]
-                )
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse ",
-              attrs: {
-                id: "dep" + department.id,
-                "aria-labelledby": "head" + department.id,
-                "data-parent": "#accordion"
-              }
-            },
-            [
-              _c("div", { staticClass: "card-body p-0" }, [
-                _c(
-                  "div",
-                  { staticClass: "list-group" },
-                  _vm._l(department.ticket_subjects, function(subject) {
-                    return _c(
-                      "a",
+    _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-header" }, [
+        _vm._v("انتخاب موضوع درخواست مطرح شده")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-body" }, [
+        _c("div", { staticClass: "mb-3" }, [
+          _vm._v(
+            "\n                لطفا از لیست زیر ابندا واحد سازمانی مورد نظر و سپس موضوع درخواست مطروحه را انتخاب نمایید:\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { attrs: { id: "accordion" } },
+          _vm._l(_vm.departments, function(department) {
+            return _c("div", { staticClass: "card" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "card-header",
+                  attrs: { id: "head" + department.id }
+                },
+                [
+                  _c("h5", { staticClass: "mb-0" }, [
+                    _c(
+                      "button",
                       {
-                        staticClass: "list-group-item list-group-item-action",
-                        attrs: { href: "#" },
-                        on: {
-                          click: function($event) {
-                            return _vm.selectSubject(subject, department)
-                          }
+                        staticClass: "btn btn-link",
+                        attrs: {
+                          "data-toggle": "collapse",
+                          "data-target": "#dep" + department.id,
+                          "aria-expanded": "true",
+                          "aria-controls": "dep" + department.id
                         }
                       },
                       [
                         _vm._v(
-                          "\n                            " +
-                            _vm._s(subject.title) +
-                            "\n                        "
+                          "\n                                " +
+                            _vm._s(department.name) +
+                            "\n                            "
                         )
                       ]
                     )
-                  }),
-                  0
-                )
-              ])
-            ]
-          )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse ",
+                  attrs: {
+                    id: "dep" + department.id,
+                    "aria-labelledby": "head" + department.id,
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body p-0" }, [
+                    _c(
+                      "div",
+                      { staticClass: "list-group" },
+                      _vm._l(department.ticket_subjects, function(subject) {
+                        return _c(
+                          "a",
+                          {
+                            staticClass:
+                              "list-group-item list-group-item-action",
+                            attrs: { href: "#" },
+                            on: {
+                              click: function($event) {
+                                return _vm.selectSubject(subject, department)
+                              }
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                                    " +
+                                _vm._s(subject.title) +
+                                "\n                                "
+                            )
+                          ]
+                        )
+                      }),
+                      0
+                    )
+                  ])
+                ]
+              )
+            ])
+          }),
+          0
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-outline-danger",
+                on: {
+                  click: function($event) {
+                    $event.preventDefault()
+                    return _vm.cancel($event)
+                  }
+                }
+              },
+              [_vm._v("انصراف")]
+            )
+          ])
         ])
-      }),
-      0
-    )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../packages/answering-system/resources/assets/js/components/ShowTicket.vue?vue&type=template&id=7b6545aa&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "card" }, [
+      _c(
+        "div",
+        { staticClass: "card-body" },
+        [
+          _c("div", { staticClass: "alert alert-success " }, [
+            _vm._v(
+              "\n                درخواست با موفقیت ثبت شد.\n                "
+            ),
+            _c("div", { staticClass: "clearfix" }),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-outline-light float-left ",
+                on: {
+                  click: function($event) {
+                    $event.preventDefault()
+                    return _vm.done($event)
+                  }
+                }
+              },
+              [_vm._v("ثبت درخواست جدید")]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "clearfix" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-success h3" }, [
+            _c("p", [
+              _c("strong", [_vm._v("کد پیگیری:")]),
+              _vm._v(" " + _vm._s(_vm.ticket.id))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("p", [
+              _c("strong", [_vm._v("واحد سازمانی پیگیری کننده:")]),
+              _vm._v(" " + _vm._s(_vm.ticket.department.name))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("p", [
+              _c("strong", [_vm._v("موضوع درخواست:")]),
+              _vm._v(" " + _vm._s(_vm.ticket.ticket_subject.title))
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._l(_vm.ticket.ticket_subject.fields, function(field, key) {
+            return _c("div", { staticClass: "col-md-12" }, [
+              field.type == "text"
+                ? _c("div", { staticClass: "form-group" }, [
+                    _c("label", { attrs: { for: key } }, [
+                      _vm._v(_vm._s(field.label) + ": ")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: key, readonly: "" },
+                      domProps: { value: _vm.ticket[key] }
+                    })
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              field.type == "richtext"
+                ? _c("div", { staticClass: "form-group" }, [
+                    _c("label", { attrs: { for: key } }, [
+                      _vm._v(_vm._s(field.label) + ": ")
+                    ]),
+                    _vm._v(" "),
+                    _c("textarea", {
+                      staticClass: "form-control",
+                      attrs: { id: key, cols: "30", rows: "10", readonly: "" },
+                      domProps: { value: _vm.ticket[key] }
+                    })
+                  ])
+                : _vm._e()
+            ])
+          })
+        ],
+        2
+      )
+    ])
   ])
 }
 var staticRenderFns = []
@@ -73425,91 +73854,127 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("form", [
-      _c(
-        "div",
-        { staticClass: "row" },
-        _vm._l(_vm.ticket_subject.fields, function(field, key) {
-          return _c("div", { staticClass: "col-md-12" }, [
-            field.type == "text"
-              ? _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: key } }, [
-                    _vm._v(_vm._s(field.label))
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.fields[key],
-                        expression: "fields[key]"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", id: key },
-                    domProps: { value: _vm.fields[key] },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.$set(_vm.fields, key, $event.target.value)
-                      }
-                    }
-                  })
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            field.type == "richtext"
-              ? _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: key } }, [
-                    _vm._v(_vm._s(field.label))
-                  ]),
-                  _vm._v(" "),
-                  _c("textarea", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.fields[key],
-                        expression: "fields[key]"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { id: key, cols: "30", rows: "10" },
-                    domProps: { value: _vm.fields[key] },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.$set(_vm.fields, key, $event.target.value)
-                      }
-                    }
-                  })
-                ])
-              : _vm._e()
-          ])
-        }),
-        0
-      ),
+    _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-header" }, [_vm._v("ثبت اطلاعات تیکت")]),
       _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "card-body" }, [
+        _c("div", [
+          _c("div", [
+            _c("strong", [_vm._v("واحد سازمانی:")]),
+            _vm._v(" " + _vm._s(_vm.department.name) + "\n                ")
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("strong", [_vm._v("موضوع درخواست:")]),
+            _vm._v(
+              " " + _vm._s(_vm.ticket_subject.title) + "\n                "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("hr"),
+        _vm._v(" "),
+        _c("form", [
           _c(
-            "button",
-            {
-              staticClass: "btn btn-outline-success",
-              on: {
-                click: function($event) {
-                  $event.preventDefault()
-                  return _vm.submitForm($event)
-                }
-              }
-            },
-            [_vm._v("ذخیره")]
-          )
+            "div",
+            { staticClass: "row" },
+            _vm._l(_vm.ticket_subject.fields, function(field, key) {
+              return _c("div", { staticClass: "col-md-12" }, [
+                field.type == "text"
+                  ? _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: key } }, [
+                        _vm._v(_vm._s(field.label) + ": ")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.fields[key],
+                            expression: "fields[key]"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text", id: key },
+                        domProps: { value: _vm.fields[key] },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.fields, key, $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                field.type == "richtext"
+                  ? _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: key } }, [
+                        _vm._v(_vm._s(field.label) + ": ")
+                      ]),
+                      _vm._v(" "),
+                      _c("textarea", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.fields[key],
+                            expression: "fields[key]"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: key, cols: "30", rows: "10" },
+                        domProps: { value: _vm.fields[key] },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.fields, key, $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  : _vm._e()
+              ])
+            }),
+            0
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-outline-success",
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.submitForm($event)
+                    }
+                  }
+                },
+                [_vm._v("ذخیره")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-outline-danger",
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.cancelForm($event)
+                    }
+                  }
+                },
+                [_vm._v("انصراف")]
+              )
+            ])
+          ])
         ])
       ])
     ])
