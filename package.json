@@ -34,6 +34,6 @@
         "overlayscrollbars": "^1.13.0",
         "select2": "^4.0.13",
         "select2-bootstrap-theme": "0.1.0-beta.10",
-        "sweetalert2": "^9.17.1"
+        "sweetalert2": "^9.17.2"
     }
 }

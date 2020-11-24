@@ -22,9 +22,9 @@ window.Vue = require('vue');
 
 Vue.component('CallsReport', require('./vue/nasim-moshaver/CallsReport').default);
 Vue.component(
-    'CallsAnswering',
+    'RespondingStage',
     require(
-        '../../../../vendor/hsyir/answering-system/resources/assets/js/components/CreateTicket'
+        '../../../../vendor/hsyir/answering-system/resources/assets/js/components/RespondingStage'
     ).default
 );
 // Vue.component('ThemeOptions', require('./vue/theme-options/options.vue').default);
@@ -42,8 +42,8 @@ const app = new Vue({
 });
 
 
-// import VueSweetalert2 from 'vue-sweetalert2';
-// Vue.use(VueSweetalert2);
+window.Swal = require("sweetalert2");
+import 'sweetalert2/src/sweetalert2.scss'
 
 window.select2 = require("select2");
 // $.fn.select2.defaults.set('amdBase', 'select2/');
