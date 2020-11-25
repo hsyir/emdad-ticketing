@@ -16,7 +16,6 @@
         "hsyir/answering-system": "dev-main",
         "hsyir/html": "^2.0",
         "hsyir/simotel-laravel-connect": "^1.2",
-        "hsyir/ticketing": "dev-main",
         "jeroennoten/laravel-adminlte": "^3.5",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
@@ -72,13 +71,6 @@
         {
             "type": "path",
             "url": "../packages/answering-system",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "../packages/ticketing",
             "options": {
                 "symlink": true
             }

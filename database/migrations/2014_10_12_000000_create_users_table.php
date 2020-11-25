@@ -20,6 +20,15 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
 
+            //ldap
+            $table->string('username')->unique();
+            $table->string('department')->nullable();
+            $table->string('company')->nullable();
+            $table->string('manager')->nullable();
+            $table->string('dn')->nullable();
+            $table->text('member_of')->nullable();
+
+            //simotel
             $table->string('simotel_number')->nullable();
             $table->string('simotel_password')->nullable();
             $table->boolean("simotel_paused")->default(true);
