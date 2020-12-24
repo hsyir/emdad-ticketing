@@ -46,7 +46,7 @@ return [
     |
     */
 
-    'model' => App\User::class,
+    'model' => App\Models\User::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -133,7 +133,7 @@ return [
 
         'ldap' => [
 
-            'locate_users_by' => 'userprincipalname',
+            'locate_users_by' => 'samaccountname',
 
             'bind_users_by' => 'distinguishedname',
 
@@ -233,7 +233,7 @@ return [
         |
         */
 
-        'sync' => env('LDAP_PASSWORD_SYNC', false),
+        'sync' => env('LDAP_PASSWORD_SYNC', true),
 
         /*
         |--------------------------------------------------------------------------

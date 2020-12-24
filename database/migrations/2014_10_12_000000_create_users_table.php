@@ -16,9 +16,10 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('title')->nullable();
 
             //ldap
             $table->string('username')->unique();
@@ -26,6 +27,7 @@ class CreateUsersTable extends Migration
             $table->string('company')->nullable();
             $table->string('manager')->nullable();
             $table->string('dn')->nullable();
+            $table->string('objectguid')->nullable();
             $table->text('member_of')->nullable();
 
             //simotel
