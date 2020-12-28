@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38f97c0c411f9459021aa310cb0c542c",
+    "content-hash": "42d46561e3ba1b148c0f80f49c33c6e0",
     "packages": [
         {
             "name": "adldap2/adldap2",
@@ -1198,15 +1198,22 @@
         {
             "name": "hsyir/answering-system",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../packages/answering-system",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hsyir/answering-system.git",
                 "reference": "ad267eab198e3b2a312b7b20028a8d8c70d96739"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hsyir/answering-system/zipball/ad267eab198e3b2a312b7b20028a8d8c70d96739",
+                "reference": "ad267eab198e3b2a312b7b20028a8d8c70d96739",
+                "shasum": ""
             },
             "require-dev": {
                 "laravel/legacy-factories": "1.x-dev",
                 "orchestra/testbench": "9999999-dev"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1223,19 +1230,7 @@
                     "Hsy\\AnsweringSystem\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Hsy\\AnsweringSystem\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "php vendor/phpunit/phpunit/phpunit"
-                ],
-                "test-debug": [
-                    "php vendor/phpunit/phpunit/phpunit --debug"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1245,10 +1240,11 @@
                     "email": "hosseinyaghmaee@gmail.com"
                 }
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/hsyir/answering-system/issues",
+                "source": "https://github.com/hsyir/answering-system/tree/main"
+            },
+            "time": "2020-12-23T09:57:31+00:00"
         },
         {
             "name": "hsyir/html",

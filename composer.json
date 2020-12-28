@@ -14,7 +14,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "hsyir/answering-system": "dev-main",
+        "hsyir/answering-system": "9999999-dev",
         "hsyir/html": "^2.0",
         "hsyir/simotel-laravel-connect": "^1.2",
         "jeroennoten/laravel-adminlte": "^3.5",
@@ -67,14 +67,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../packages/answering-system",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    }
 }
