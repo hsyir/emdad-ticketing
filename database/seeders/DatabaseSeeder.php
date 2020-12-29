@@ -16,5 +16,6 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         (new DepartmentSeeder())->run();
         (new TicketSubjectSeeder())->run();
+        (new UsersSeeder())->run();
     }
 }
