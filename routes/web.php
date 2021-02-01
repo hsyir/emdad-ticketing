@@ -23,3 +23,8 @@ Auth::routes();
 Route::as("responders.")->prefix("responders")->namespace("\App\Http\Controllers\Responders")->group(function () {
     Route::get("", "RespondingDashboardController@index")->name("index");
 });
+
+
+Route::namespace("\\App\\Http\\Controllers\\Back")->as("admin.")->prefix("admin")->group(function(){
+    Route::get("search/users", "SearchController@searchForUser")->name("search.users");
+});
