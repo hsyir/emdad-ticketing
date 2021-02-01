@@ -245,7 +245,7 @@ return [
         ],
         [
             'text' => 'درخواست ها',
-            'url'  => '',
+            'url'  => 'answering/tickets',
             'icon' => 'fas fa-fw fa-hands',
         ],
         ['header' => 'سیستم'],
@@ -258,6 +258,11 @@ return [
             'text' => 'تیکت ها موضوعات',
             'url'  => 'answering/ticketSubjects',
             'icon' => 'fas fa-fw fa-align-justify',
+        ],
+        [
+            'text' => 'شهر ها',
+            'url'  => 'answering/cities',
+            'icon' => 'fas fa-fw fa-map',
         ],
         ['header' => 'کاربران'],
         [
