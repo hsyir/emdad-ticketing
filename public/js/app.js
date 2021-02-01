@@ -2343,6 +2343,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -2418,6 +2420,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2453,12 +2459,26 @@ __webpack_require__.r(__webpack_exports__);
         vm.departments = res.data.data;
       });
     },
+    getOffices: function getOffices() {
+      var vm = this;
+      axios.get("/answering/getOffices").then(function (res) {
+        vm.offices = res.data.data;
+      });
+    },
+    getCities: function getCities() {
+      var vm = this;
+      axios.get("/answering/getCities").then(function (res) {
+        vm.cities = res.data.data;
+      });
+    },
     crateTicketCancel: function crateTicketCancel() {
       this.goToStep("selectRequestType");
     }
   },
   mounted: function mounted() {
     this.getDepartments();
+    this.getOffices();
+    this.getCities();
   }
 });
 
@@ -2711,10 +2731,28 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "TicketForm",
   components: {},
-  props: ["ticket_subject", "department"],
+  props: ["ticket_subject", "department", "offices", 'cities'],
   data: function data() {
     return {
       loading: false,
@@ -2727,6 +2765,28 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.loading = true;
       axios.post("/answering/tickets", this.collectData()).then(function (res) {
         vm.ticketStored(res.data.data);
+      })["catch"](function (error) {
+        if (error.response) {
+          // Request made and server responded
+          var errors = error.response.data.errors;
+          var errorMsg = "";
+
+          for (error in errors) {
+            errorMsg += "<li class=\"text-right\">".concat(errors[error], "</li>");
+          }
+
+          errorMsg = "<ul>".concat(errorMsg, "</ul>");
+          Swal.fire({
+            title: 'مشکلی پیش آمده است!',
+            icon: 'error',
+            html: errorMsg,
+            showCloseButton: true,
+            showCancelButton: false,
+            showConfirmButton: true,
+            confirmButtonText: "بسیار خب",
+            focusConfirm: true
+          });
+        }
       });
     },
     collectData: function collectData() {
@@ -2739,7 +2799,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.saveTicket();
     },
     ticketStored: function ticketStored(ticket) {
-      console.log(ticket);
+      var msg = "درخواست ثبت شد" + "<br>" + "شماره پیگیری:" + ticket.id;
+      Swal.fire({
+        title: 'انجام شد',
+        icon: 'success',
+        html: msg,
+        showCloseButton: true,
+        showCancelButton: false,
+        showConfirmButton: true,
+        confirmButtonText: "مشاهده جزییات درخواست",
+        focusConfirm: true
+      });
       this.resetForm();
       this.$emit("ticketStored", ticket);
     },
@@ -73406,7 +73476,9 @@ var render = function() {
             _c("ticket-form", {
               attrs: {
                 ticket_subject: _vm.selected_subject,
-                department: _vm.selected_department
+                department: _vm.selected_department,
+                offices: _vm.offices,
+                cities: _vm.cities
               },
               on: {
                 ticketStored: _vm.newTicketStored,
@@ -73472,7 +73544,11 @@ var render = function() {
           "div",
           [
             _c("create-ticket", {
-              attrs: { departments: _vm.departments },
+              attrs: {
+                departments: _vm.departments,
+                offices: _vm.offices,
+                cities: _vm.cities
+              },
               on: { cancel: _vm.crateTicketCancel }
             })
           ],
@@ -73936,6 +74012,108 @@ var render = function() {
                           }
                         }
                       })
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                field.type == "city"
+                  ? _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: key } }, [
+                        _vm._v(_vm._s(field.label) + ": ")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.fields[key],
+                              expression: "fields[key]"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: key },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.fields,
+                                key,
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.cities, function(city) {
+                          return _c(
+                            "option",
+                            { domProps: { value: city.id } },
+                            [_vm._v(_vm._s(city.name))]
+                          )
+                        }),
+                        0
+                      )
+                    ])
+                  : _vm._e(),
+                _vm._v(" "),
+                field.type == "office"
+                  ? _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: key } }, [
+                        _vm._v(_vm._s(field.label) + ": ")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.fields[key],
+                              expression: "fields[key]"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: key },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.fields,
+                                key,
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.offices, function(office) {
+                          return _c(
+                            "option",
+                            { domProps: { value: office.id } },
+                            [_vm._v(_vm._s(office.name))]
+                          )
+                        }),
+                        0
+                      )
                     ])
                   : _vm._e()
               ])
