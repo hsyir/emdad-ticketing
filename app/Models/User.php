@@ -12,7 +12,6 @@ class User extends Authenticatable
     use HasFactory, Notifiable;
 
 
-
     const RESPONDING_STATUS_ACTIVE = 1;
     const RESPONDING_STATUS_PAUSE = 2;
 
@@ -47,7 +46,6 @@ class User extends Authenticatable
     ];
 
 
-
     public function scopeLike($query, $field, $value)
     {
         return $query->where($field, 'LIKE', "%$value%");
@@ -56,5 +54,11 @@ class User extends Authenticatable
     public function scopeOrlike($query, $field, $value)
     {
         return $query->orWhere($field, 'LIKE', "%$value%");
+    }
+
+
+    public function isAdmin()
+    {
+        return $this->level == 2;
     }
 }
