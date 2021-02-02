@@ -17,5 +17,7 @@ class DatabaseSeeder extends Seeder
         (new DepartmentSeeder())->run();
         (new TicketSubjectSeeder())->run();
         (new UsersSeeder())->run();
+        (new CitySeeder())->run();
+        (new OfficeSeeder())->run();
     }
 }
