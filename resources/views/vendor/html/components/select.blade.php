@@ -1,9 +1,9 @@
 <div class="form-group ">
     <label for="{{ $name }}"
-           class="col-form-label text-md-right">{{ $caption }}</label>
+           class="col-form-label text-md-right">{{ $label??"" }}</label>
 
     <select id="{{ $name }}"
-            {{ $disabled ?? ''  }}
+            {{ isset($disabled) and $disabled ? 'disabled' : "" }}
             name="{{ $name }}"
             class="form-control{{ $errors->has($name) ? ' is-invalid' : '' }}">
         @foreach($select_options as $key=>$option)
