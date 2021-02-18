@@ -264,6 +264,17 @@ return [
             'url'  => 'answering/cities',
             'icon' => 'fas fa-fw fa-map',
         ],
+        ['header' => 'دسترسی ها'],
+        [
+            'text' => 'دسترسی ها',
+            'url'  => '/admin/permissions',
+            'icon' => 'fas fa-fw fa-users',
+        ],
+        [
+            'text' => 'نقش ها',
+            'url'  => '/admin/roles',
+            'icon' => 'fas fa-fw fa-users',
+        ],
         ['header' => 'کاربران'],
         [
             'text' => 'مدیریت کاربران',

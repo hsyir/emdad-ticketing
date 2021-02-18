@@ -27,4 +27,9 @@ Route::as("responders.")->prefix("responders")->namespace("\App\Http\Controllers
 
 Route::namespace("\\App\\Http\\Controllers\\Back")->as("admin.")->prefix("admin")->group(function(){
     Route::get("search/users", "SearchController@searchForUser")->name("search.users");
+    Route::resource("permissions","PermissionController");
+    Route::resource("roles","RoleController");
+    Route::post("roles/{role}/syncPermissions","RoleController@syncPermissions")->name("roles.syncPermissions");
+    Route::post("roles/{role}/addUser","RoleController@addUser")->name("roles.addUser");
+    Route::delete("roles/{role}/removeUser","RoleController@removeUser")->name("roles.removeUser");
 });
